@@ -6,6 +6,8 @@
 git clone https://github.com/ra463/Secure-Bblink.git
 ```
 
+**For Admin Route you have himself edit the role="admin" in mongoDB database**
+
 Create a file named `config.env` in the `config` folder and add the following env variable
 
 ```
@@ -26,6 +28,8 @@ TIME="Time for express-rate-limiting so that user can send limited request for t
 MAX="No. of request user can send at the particular interval of time"
 
 ```
+
+
 
 Install all the dependencies by running the command `npm install`
 
