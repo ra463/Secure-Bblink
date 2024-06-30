@@ -1,9 +1,9 @@
-# NodeJs Backend Developer Project
+# Secure Blink Backend Developer
 
 **Clone This Repo**
 
 ```
-git clone https://github.com/ra463/Aeonaxy.git
+git clone https://github.com/ra463/Secure-Bblink.git
 ```
 
 Create a file named `config.env` in the `config` folder and add the following env variable
@@ -17,13 +17,13 @@ PORT=4000(Or any port of your choice)
 
 MONGO_URI="Your MongoDB Atlas/local Url to connect to database"
 
-RESEND_API_KEY="Your resend API Key for sending mail"
+EMAIL="Your email for sending codes via Nodemailer"
 
-CLOUDINARY_NAME="Your cloudinary cloud name"
+PASSWORD="Password of that Email"
 
-CLOUDINARY_API_KEY="Your cloudinary API Key"
+TIME="Time for express-rate-limiting so that user can send limited request for that time"
 
-CLOUDINARY_API_SECRET="Your cloudinary Secret"
+MAX="No. of request user can send at the particular interval of time"
 
 ```
 
